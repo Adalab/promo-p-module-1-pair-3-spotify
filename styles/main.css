@@ -1,6 +1,6 @@
 body {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  background-color: rgb(95, 159, 243);
+  background-color: rgb(68, 163, 226);
 }
 
 .spotify-logo {
@@ -14,4 +14,11 @@ h1 {
 
 .listen-songs {
   color: white;
+}
+
+.container-1,
+.container-2,
+.container-3,
+.container-4 {
+  border: solid 3px red;
 }
