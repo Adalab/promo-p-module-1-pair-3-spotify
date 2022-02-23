@@ -1,6 +1,11 @@
 body {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: Roboto, sans-serif;
   background-color: rgb(68, 163, 226);
+}
+
+.nav {
+  display: inline-block;
+  color: white;
 }
 
 .spotify-logo {
@@ -12,13 +17,29 @@ h1 {
   color: white;
 }
 
-.listen-songs {
-  color: white;
-}
-
 .container-1,
 .container-2,
 .container-3,
 .container-4 {
   border: solid 3px red;
+}
+
+.container-1 {
+  background-color: black;
+  color: white;
+  overflow: auto;
+}
+
+.container-2 {
+  color: white;
+}
+
+.container-3 {
+  background-color: white;
+}
+
+.container-4 {
+  background-color: black;
+  color: white;
+  overflow: auto;
 }
