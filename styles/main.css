@@ -1,11 +1,29 @@
-body {
-  font-family: Roboto, sans-serif;
-  background-color: rgb(68, 163, 226);
+:root {
+  font-family: "Roboto";
+  --color_1: black;
+  --color_2: white;
+  --background_main: white;
+  --background_premium: rgb(68, 163, 226);
+  --background_header_footer: black;
 }
 
-.nav {
-  display: inline-block;
-  color: white;
+body {
+  background-color: var(--background_premium);
+  margin: 0px;
+}
+
+.nav-1 {
+  display: none;
+  color: var(--color_2);
+}
+
+.list {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color_2);
 }
 
 .spotify-logo {
@@ -14,32 +32,51 @@ body {
 
 h1 {
   font-weight: 900;
-  color: white;
+  color: var(--color_2);
 }
 
 .container-1,
 .container-2,
 .container-3,
 .container-4 {
-  border: solid 3px red;
+  border: solid 3px rgb(255, 0, 0);
+  box-sizing: border-box;
 }
 
 .container-1 {
-  background-color: black;
-  color: white;
-  overflow: auto;
+  background-color: var(--background_header_footer);
+  color: var(--color_2);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 35px;
 }
 
 .container-2 {
-  color: white;
+  color: var(--color_2);
+  display: flex;
+}
+
+.dancer {
+  background-image: url(../images/premium_dancer.png);
+  justify-content: space-between;
 }
 
 .container-3 {
-  background-color: white;
+  background-color: var(--background_main);
 }
 
 .container-4 {
-  background-color: black;
-  color: white;
-  overflow: auto;
+  background-color: var(--background_header_footer);
+  color: var(--color_2);
+}
+
+.legal {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.spain {
+  display: flex;
+  justify-content: flex-end;
 }

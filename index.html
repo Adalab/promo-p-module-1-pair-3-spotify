@@ -1,45 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto"
+    />
     <link rel="stylesheet" href="./styles/main.css" />
     <title>Spotify</title>
   </head>
   <body>
     <header class="container-1">
-      <div>
-          <img class="spotify-logo" src="./images/logo.png" alt="Spotify logo" />
-      </div>
-      <nav class="nav">
-      <img src="./images/menu-icon.png" alt="Icono" 
-      width="30">
-        <a href="">Premium</a>
-        <a href="">Ayuda</a>
-        <a href="">Descargar</a>
-        <a href="">Registrarse</a>
-        <a href="">Iniciar sesión</a>
+      <img class="spotify-logo" src="./images/logo.png" alt="Spotify logo" />
+      <img src="./images/menu-icon.png" alt="Icono" width="30" />
+      <nav class="nav-1">
+        <ul class="list">
+          <li>
+            <a href="#">Premium</a>
+          </li>
+          <li><a href="#">Ayuda</a></li>
+          <li><a href="#">Descargar</a></li>
+          <li><a href="#">Registrarse</a></li>
+          <li><a href="#">Iniciar sesión</a></li>
+        </ul>
       </nav>
     </header>
     <main>
-      <article class="container-2">
-        <div>
-          <img src="./images/premium_dancer.png" alt="chica bailando" width= 150px
-          >
-        </div>
-        <h1>
-          Prueba Premium gratis 3<br />
-          meses
-        </h1>
-        <h3> Escucha millones de canciones sin anuncios, a la carta y sin conexión. </h3>
-        <h4>VER PLANES</h4>
-        <h6>
-          Rigen términos y condiciones. Los tres meses gratis no están
-          disponibles para usuarios que ya hayan probado<br />
-          Premium.
-        </h6>
-      </article>
+      <section class="container-2">
+        <article class="dancer">
+          <h1>
+            Prueba Premium gratis 3<br />
+            meses
+          </h1>
+          <h3>
+            Escucha millones de canciones sin anuncios, a la carta y sin
+            conexión.
+          </h3>
+          <h4>VER PLANES</h4>
+          <h6>
+            Rigen términos y condiciones. Los tres meses gratis no están
+            disponibles para usuarios que ya hayan probado<br />
+            Premium.
+          </h6>
+        </article>
+      </section>
       <section class="container-3">
         <h2>¿Por qué pasarte a Premium?</h2>
         <article>
@@ -68,15 +78,20 @@
       </section>
     </main>
     <footer class="container-4">
-      
-      <p>Legal</p>
-      <p>Cookies</p>
-      <p>Información sobre los anuncios</p>
-      <div>
-      <img src="./images/es.svg" alt="Bandera de España" />
-      <p>España</p>
-      <p>© 2019 Spotify AB</p>
-     </div>
+      <section>
+        <article class="legal">
+          <ul class="list">
+            <li>Legal</li>
+            <li>Cookies</li>
+            <li>Información sobre los anuncios</li>
+          </ul>
+        </article>
+        <article class="spain">
+          <img src="./images/es.svg" alt="Bandera de España" />
+          <p>España</p>
+          <p>© 2019 Spotify AB</p>
+        </article>
+      </section>
     </footer>
   </body>
 </html>
