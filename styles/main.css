@@ -44,6 +44,9 @@ h1 {
 }
 
 .container-1 {
+  position: fixed;
+  width: 100%;
+  z-index: 999;
   background-color: var(--background_header_footer);
   color: var(--color_2);
   display: flex;
@@ -52,14 +55,12 @@ h1 {
   padding: 35px;
 }
 
+
 .container-2 {
   color: var(--color_2);
-  display: flex;
-}
-
-.dancer {
   background-image: url(../images/premium_dancer.png);
   justify-content: space-between;
+  display: flex;
 }
 
 .container-3 {
@@ -69,14 +70,6 @@ h1 {
 .container-4 {
   background-color: var(--background_header_footer);
   color: var(--color_2);
-}
-
-.legal {
   display: flex;
-  justify-content: flex-start;
-}
-
-.spain {
-  display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
 }
