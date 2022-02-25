@@ -9,16 +9,26 @@
 
 body {
   background-color: var(--background_premium);
-  margin: 0px;
 }
 
 .nav-1 {
   display: none;
   color: var(--color_2);
+  letter-spacing: 2pt;
 }
 
-.list {
+.list-item {
+  margin: 10px;
+}
+
+.list-1 {
+  display: flex;
   list-style: none;
+}
+
+.list-2 {
+  display: flex;
+  flex-direction: column;
 }
 
 a {
@@ -31,8 +41,18 @@ a {
 }
 
 h1 {
-  font-weight: 900;
+  font-size: 45px;
   color: var(--color_2);
+  margin-top: 60px;
+}
+
+.text-million-songs {
+  font-size: 27px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
 }
 
 .container-1,
@@ -44,7 +64,8 @@ h1 {
 }
 
 .container-1 {
-  position: fixed;
+  position: sticky;
+  top: 0;
   width: 100%;
   z-index: 999;
   background-color: var(--background_header_footer);
@@ -52,19 +73,61 @@ h1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 35px;
+  padding: 10px 10px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
-
 .container-2 {
+  width: 100%;
   color: var(--color_2);
   background-image: url(../images/premium_dancer.png);
-  justify-content: space-between;
+  background-repeat: no-repeat;
+  padding: 30px;
+}
+
+.green-plan {
+  height: 50px;
+  width: 100%;
+  max-width: 380px;
+  border-radius: 30px;
+  background-color: rgb(81, 175, 62);
+  margin-top: 30px;
+  margin-bottom: 30px;
   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.conditions {
+  font-size: 15px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 40px;
+}
+
+.articles {
+  display: flex;
+  flex-direction: row;
+  justify-content: normal;
+  padding-right: 40px;
+  padding-left: 70px;
+  padding-bottom: 50px;
+  font-size: 15px;
+}
+
+.text-articles {
+  display: inline-flex;
+  flex-direction: column;
+  padding-left: 50px;
 }
 
 .container-3 {
   background-color: var(--background_main);
+  display: flex;
+  flex-direction: column;
 }
 
 .container-4 {
@@ -72,4 +135,27 @@ h1 {
   color: var(--color_2);
   display: flex;
   justify-content: space-between;
+  height: 150px;
+}
+
+.legal {
+  letter-spacing: 2pt;
+  display: flex;
+  align-items: flex-end;
+  padding-left: 20px;
+  font-size: 10px;
+  line-height: 40px;
+}
+
+.text-spain {
+  display: flex;
+  justify-content: space-evenly;
+  padding-right: 3px;
+  padding-top: 20px;
+  font-size: 15px;
+}
+
+.copyright {
+  padding-right: 20px;
+  font-size: 15px;
 }

@@ -18,73 +18,83 @@
   <body>
     <header class="container-1">
       <img class="spotify-logo" src="./images/logo.png" alt="Spotify logo" />
-      <img src="./images/menu-icon.png" alt="Icono" width="30" />
+      <img src="./images/menu-icon.png" alt="Icono" width="30" height="35" />
       <nav class="nav-1">
-        <ul class="list list-1">
-          <li><a href="#">Premium</a></li>
-          <li><a href="#">Ayuda</a></li>
-          <li><a href="#">Descargar</a></li>
-          <li><a href="#">Registrarse</a></li>
-          <li><a href="#">Iniciar sesión</a></li>
+        <ul class="list-1">
+          <li class="list-item"><a href="#">Premium</a></li>
+          <li class="list-item"><a href="#">Ayuda</a></li>
+          <li class="list-item"><a href="#">Descargar</a></li>
+          <li class="list-item">|</li>
+          <li class="list-item"><a href="#">Registrarse</a></li>
+          <li class="list-item"><a href="#">Iniciar sesión</a></li>
         </ul>
       </nav>
     </header>
-    <main>
+    <main class="main">
       <section class="container-2">
-          <h1>
-            Prueba Premium gratis 3<br />
-            meses
-          </h1>
-          <h3>
-            Escucha millones de canciones sin anuncios, a la carta y sin
-            conexión.
-          </h3>
-          <h4>VER PLANES</h4>
-          <p>
-            Rigen términos y condiciones. Los tres meses gratis no están
-            disponibles para usuarios que ya hayan probado<br />
-            Premium.
-          </p>
+        <h1>Prueba Premium gratis 3 meses</h1>
+        <h3 class="text-million-songs">
+          Escucha millones de canciones sin anuncios, a la carta y sin conexión.
+        </h3>
+        <div class="green-plan">
+          <a href="#">VER PLANES</a>
+        </div>
+        <p class="conditions">
+          Rigen términos y condiciones. Los tres meses gratis no están
+          disponibles para usuarios que ya hayan probadoPremium.
+        </p>
       </section>
       <section class="container-3">
         <h2>¿Por qué pasarte a Premium?</h2>
-        <article>
-          <img src="./images/benefit-1.png" alt="Descarga música logo" />
-          <h5>Descarga música.</h5>
-          <h6>Llévala siempre contigo.</h6>
+        <article class="articles">
+          <img src="./images/benefit-1.png" alt="Descarga música" width="100" />
+          <div class="text-articles">
+            <h4>Descarga música.</h4>
+            <p>Llévala siempre contigo.</p>
+          </div>
         </article>
-        <article>
-          <img src="./images/benefit-2.png" alt="Sin anuncios" />
-          <h5>Sin anuncios.</h5>
-          <h6>Disfruta de música sin interrupciones.</h6>
+        <article class="articles">
+          <img src="./images/benefit-2.png" alt="Sin anuncios" width="100" />
+          <div class="text-articles">
+            <h4>Sin anuncios.</h4>
+            <p>Disfruta de música sin interrupciones.</p>
+          </div>
         </article>
-        <article>
-          <img src="./images/benefit-3.png" alt="Escucha lo que quieras" />
-          <h5>Escucha lo que quieras.</h5>
-          <h6>Incluso en el móvil.</h6>
+        <article class="articles">
+          <img
+            src="./images/benefit-3.png"
+            alt="Escucha lo que quieras"
+            width="100"
+          />
+          <div class="text-articles">
+            <h4>Escucha lo que quieras.</h4>
+            <p>Incluso en el móvil.</p>
+          </div>
         </article>
-        <article>
+        <article class="articles">
           <img
             src="./images/benefit-4.png"
             alt="Salta todas las canciones que quieras"
+            width="100"
           />
-          <p>Salta todas las canciones que que quieras.</p>
-          <p>Simplemente dale a siguiente.</p>
+          <div class="text-articles">
+            <h4>Salta todas las canciones que quieras.</h4>
+            <p>Simplemente dale a siguiente.</p>
+          </div>
         </article>
       </section>
     </main>
     <footer class="container-4">
       <div class="legal">
-        <ul class="list list-2">
-          <li>Legal</li>
-          <li>Cookies</li>
-          <li>Información sobre los anuncios</li>
-        </ul>
+          <p>Legal Cookies<br>Información sobre los anuncios</p>
+          </p>
       </div>
       <div class="spain">
-        <p>España</p> 
-        <img class="bandera" src="./images/es.svg" alt="Bandera de España"/> 
-        <p>© 2019 Spotify AB</p>
+        <div class="text-spain">
+          <p>España</p>
+          <img src="./images/es.svg" alt="Bandera de España" width="35"/>
+        </div>
+        <span class="copyright"> © 2019 Spotify AB</span>
       </div>
     </footer>
   </body>
