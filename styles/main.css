@@ -18,7 +18,7 @@ body {
 }
 
 .list-item {
-  margin: 10px;
+  margin: 5px;
 }
 
 .list-1 {
@@ -83,6 +83,7 @@ h1 {
   color: var(--color_2);
   background-image: url(../images/premium_dancer.png);
   background-repeat: no-repeat;
+  background-image: none;
   padding: 30px;
 }
 
@@ -158,4 +159,43 @@ h2 {
 .copyright {
   padding-right: 20px;
   font-size: 15px;
+}
+
+/*TABLET*/
+
+@media all and (min-width: 780px) {
+  .nav-1 {
+    display: flex;
+    flex-direction: row;
+    color: var(--color_2);
+    letter-spacing: 2pt;
+  }
+
+  .hamburguer {
+    display: none;
+  }
+
+  .container-2 {
+    background-image: url(../images/premium_dancer.png);
+  }
+
+  .wrapper {
+    display: flex;
+  }
+}
+
+/*DESKTOP*/
+
+@media all and (min-width: 1000px) {
+  .container-3 {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .articles {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+  }
 }
