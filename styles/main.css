@@ -14,7 +14,6 @@ body {
 .nav-1 {
   display: none;
   color: var(--color_2);
-  letter-spacing: 2pt;
 }
 
 .list-item {
@@ -29,6 +28,17 @@ body {
 .list-2 {
   display: flex;
   flex-direction: column;
+}
+
+.list-3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  list-style: none;
+  padding: 0;
+  gap: 10px;
+  margin-bottom: 45px;
+  line-height: 30px;
 }
 
 a {
@@ -79,11 +89,14 @@ h1 {
 }
 
 .container-2 {
-  width: 100%;
-  color: var(--color_2);
   background-image: url(../images/premium_dancer.png);
   background-repeat: no-repeat;
-  background-image: none;
+  background-position-y: center;
+  background-position-x: right;
+  background-size: contain;
+  background: none;
+  width: 100%;
+  color: var(--color_2);
   padding: 30px;
 }
 
@@ -176,20 +189,35 @@ h2 {
   }
 
   .container-2 {
-    background-image: url(../images/premium_dancer.png);
+    background-image: url(../images/premium_dancer.png)
+    ;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: right;
+    background-size: contain;
   }
 
   .wrapper {
     display: flex;
   }
-}
+
+  .wrapper-1 {
+    display: flex;
+  }
+
+  .legal {
+    display: flex;
+    flex-direction: row;
+   
+  }
+
 
 /*DESKTOP*/
 
 @media all and (min-width: 1000px) {
   .container-3 {
     display: flex;
-    flex-direction: row;
+    align-content: center;
   }
 
   .articles {
@@ -198,4 +226,9 @@ h2 {
     flex-wrap: wrap;
     text-align: center;
   }
+
+  .wrapper {
+    display: flex;
+  }
+
 }
